@@ -1,0 +1,255 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"check",
+				"checked_nonavailiable"
+			],
+			[
+				"to",
+				"token"
+			],
+			[
+				"users_",
+				"users_model"
+			],
+			[
+				"aa",
+				"aaData_row"
+			],
+			[
+				"add",
+				"address_composite"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 215.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 181.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/pathimageci/application/views/start.php",
+		"/C/wamp/www/pathimagenote/frontend/config/params.php",
+		"/C/wamp/www/pathimagenote/common/config/main-local.php",
+		"/C/wamp/www/pathimagenote/common/config/params.php",
+		"/C/wamp/www/pathimagenote/frontend/config/main-local.php",
+		"/C/wamp/www/predictlungci/application/config/smileys.php",
+		"/C/wamp/www/predictlungci/system/helpers/array_helper.php",
+		"/C/wamp/www/predictlungci/application/third_party/Classes/PHPExcel/Shared/JAMA/SingularValueDecomposition.php",
+		"/C/wamp/www/predictlungci/system/database/DB_active_rec.php",
+		"/C/wamp/www/predictlungci/application/views/backend/manage_accounts.php",
+		"/C/wamp/www/predictlungci/application/config/routes.php",
+		"/C/wamp/www/predictlungci/application/libraries/php-gettext/README",
+		"/C/wamp/www/predictlungci/application/views/edrforms/patient_register/registration_form.php",
+		"/C/wamp/www/predictlungci/application/views/edrforms/patient_register/output_registration.php",
+		"/C/wamp/www/predictlungci/.htaccess",
+		"/C/Users/nkorf/Downloads/mime-attachment",
+		"/C/Users/nkorf/Downloads/mime-attachment (1)",
+		"/C/wamp/www/stomatolog/application/third_party/Classes/PHPExcel/Shared/JAMA/examples/MagicSquareExample.php",
+		"/C/wamp/www/stomatolog/html/adminer.php",
+		"/C/wamp/www/stomatolog/application/models/ion_auth_model.php",
+		"/C/wamp/www/stomatolog/application/third_party/Classes/PHPExcel/Worksheet/PageMargins.php",
+		"/C/wamp/www/stomatolog/application/libraries/php-gettext/Makefile",
+		"/C/wamp/www/stomatolog/application/config/migration.php",
+		"/C/wamp/www/stomatolog/application/views/auth/email/new_password.tpl.php",
+		"/C/wamp/www/stomatolog/application/language/german/ion_auth_lang.php",
+		"/C/wamp/www/stomatolog/.htaccess",
+		"/E/Dropbox/te.txt"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 120.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\predictlungci\\application\\views\\edrforms",
+			"C:\\wamp\\www\\stomatolog\\application\\models",
+			"C:\\wamp\\www\\stomatolog"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"helper",
+			"href=\"css",
+			"css",
+			"$checked_negative=FALSE ; ",
+			"Neo",
+			"Time since last therapy",
+			"smoking",
+			"evaluation",
+			"chemo",
+			"proced",
+			"proceed",
+			"$this->db->update",
+			"update",
+			"downloa",
+			"LIMIT",
+			"getlastpaymentyear",
+			"down",
+			"memberdata",
+			"download",
+			"}\n",
+			"query",
+			"export2excel",
+			"Sheet",
+			"Πλαίσιο για τιμή",
+			"Πλαίσιο για τιμή	ml/sec"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "pathimage.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"respon",
+				"application\\views\\edrforms\\response.php"
+			],
+			[
+				"mainapp",
+				"application\\controllers\\mainapp.php"
+			],
+			[
+				"member",
+				"application\\controllers\\member.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 287.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

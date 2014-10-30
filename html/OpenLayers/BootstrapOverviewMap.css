@@ -1,0 +1,53 @@
+.bom-container{
+	left: 0;
+	bottom: 0;
+}
+
+.bom-btn-circle:active{
+	opacity: 1;
+}
+
+.bom-btn-circle:hover{
+	opacity: 0.8;
+}
+
+.bom-btn-circle {
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding: 2px 0;
+  font-size: 7px;
+  border-radius: 13px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.6;
+  line-height: 1;
+}
+
+/* style to rotate up arrow to point to top-right */
+.bom-arrow-out{
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	writing-mode: lr-tb;
+}
+
+/* style to rotate up arrow to point to bottom-left */
+.bom-arrow-in{
+	-webkit-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	writing-mode: lr-tb;
+	line-height: 1.25;
+}
+
+/* Overriding OpenLayers Styles */
+.olControlOverviewMapElement {
+    background-color: transparent;
+    padding: 16px 16px 0px 0px;
+}
+
+.olControlOverviewMapExtentRectangle {
+    border: 2px solid #d9534f;
+}

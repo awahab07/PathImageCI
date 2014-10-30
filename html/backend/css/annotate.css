@@ -1,0 +1,34 @@
+.annotation-link-wrapper{
+	-moz-box-shadow: 1px 5px 12px #000000;
+    -webkit-box-shadow: 1px 5px 12px #000000;
+    box-shadow: 1px 5px 12px #000000;
+    margin: 30px;
+    padding-top: 25px;
+}
+
+a.annotate-image-link{
+	text-align: center;
+}
+
+.annotate-image-link img{
+	margin-left: 10%;
+	width: 80%;
+	height: 60%;
+}
+
+.annotation-label{
+	width: 100%;
+	text-align: center;
+}
+
+.annotation-msg{
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	color: white;
+	font-size: large;
+}
+
+.annotation-msg:hover{
+	color: black;
+}

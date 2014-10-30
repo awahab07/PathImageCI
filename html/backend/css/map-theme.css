@@ -1,0 +1,82 @@
+  /* Bootstrap Fix */
+.openlayers-views-map img {
+  max-width: none !important;
+}
+
+.map img { max-width:none !important; }
+
+.olControlPanel div { 
+  display: block;
+  width:  24px;
+  height: 24px;
+  margin: 5px;
+  background-color: white;
+}
+
+.olControlPanel .olControlDrawFeatureItemActive { 
+  width:  22px;  
+  height: 22px;
+  background-image: url("theme/default/img/draw_polygon_on.png");
+}
+.olControlPanel .olControlDrawFeatureItemInactive { 
+  width:  22px;  
+  height: 22px;
+  background-image: url("theme/default/img/draw_polygon_off.png");
+}
+.olControlPanel .olControlZoomBoxItemInactive { 
+  width:  22px;  
+  height: 22px;
+  background-color: orange;
+  background-image: url("img/drag-rectangle-off.png");
+}
+.olControlPanel .olControlZoomBoxItemActive {
+  width:  22px;  
+  height: 22px;
+  background-color: blue;
+  background-image: url("img/drag-rectangle-on.png");
+}
+.olControlPanel .olControlZoomToMaxExtentItemInactive { 
+  width:  18px;  
+  height: 18px;
+  background-image: url("img/zoom-world-mini.png");
+}
+
+.olControlPanel{
+  top: 8%;
+}
+
+/* Overview Map Position */
+/*.olControlOverviewMapContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: none !important;
+}
+
+.olControlOverviewMapMinimizeButton,
+.olControlOverviewMapMaximizeButton {
+    height: 18px;
+    width: 18px;
+    left: 0;
+    bottom: 80px;
+    cursor: pointer;
+}*/
+
+#map{
+    -moz-box-shadow: 2px 1px 10px #121112;
+    -webkit-box-shadow: 2px 1px 10px #121112;
+    box-shadow: 2px 1px 10px #121112;
+}
+
+/* Styles for Map controls Panel */
+.map-warapper{
+  position: relative;
+  width: auto;
+  max-width: none;
+}
+
+.map-wrapper .right-map-panel{
+  position: absolute;
+  right: -40px;
+  top: 20px;
+}

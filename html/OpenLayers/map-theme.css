@@ -1,0 +1,113 @@
+  /* Bootstrap Fix */
+.openlayers-views-map img {
+  max-width: none !important;
+}
+
+.map img { max-width:none !important; }
+
+div.drawingPanel {
+    top: 8%;
+    right: 0;
+    position: absolute;
+    -moz-box-shadow: -2px 3px 9px #1c1a1c;
+    -webkit-box-shadow: -2px 3px 9px #1c1a1c;
+    box-shadow: -2px 3px 9px #1c1a1c;
+    padding: 3px;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.4);
+}
+
+.drawingPanel div {
+  /*background-image: url("edit_sprite.png");*/
+  background-repeat: no-repeat;
+  width:  24px;
+  height: 24px;  
+  margin-top: 2px;
+}
+
+/* Making OpenLayers Buttons, Bootstrap Buttons Like (glyphicons)*/
+.olButton{
+  font-family: "Glyphicons Halflings";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  position: relative;
+  top: 1px;
+  text-align: center;
+}
+
+/* Control Panel drawing button icons */
+
+/* Annotate Button / Draw Polygon Button */
+.drawingPanel .olControlDrawFeatureItemInactive:before, .drawingPanel .olControlDrawFeatureItemActive:before{ content: ""; }
+.drawingPanel .olControlDrawFeatureItemActive { color: #f56954; }
+.drawingPanel .olControlDrawFeatureItemInactive { color: black; }
+.drawingPanel .olControlDrawFeatureItemInactive:hover { color: white; text-shadow: black 2px 2px 2px; }
+
+/* Delete Feature Button */
+.drawingPanel .olControlDeleteFeatureItemInactive:before, .drawingPanel .olControlDeleteFeatureItemActive:before{ content: ""; }
+.drawingPanel .olControlDeleteFeatureItemActive { color: #f56954; border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+.drawingPanel .olControlDeleteFeatureItemInactive { color: black; border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+.drawingPanel .olControlDeleteFeatureItemInactive:hover { color: white; text-shadow: black 2px 2px 2px; }
+
+/* Modify Feature Button */
+.drawingPanel .olControlModifyFeatureItemInactive:before, .drawingPanel .olControlModifyFeatureItemActive:before{ content: "✏"; }
+.drawingPanel .olControlModifyFeatureItemActive { color: #f56954; }
+.drawingPanel .olControlModifyFeatureItemInactive { color: black; }
+.drawingPanel .olControlModifyFeatureItemInactive:hover { color: white; text-shadow: black 2px 2px 2px; }
+
+/* Navigation Button */
+.drawingPanel .olControlNavigationItemInactive:before, .drawingPanel .olControlNavigationItemActive:before{ content: ""; }
+.drawingPanel .olControlNavigationItemActive { color: #f56954; }
+.drawingPanel .olControlNavigationItemInactive { color: black; }
+.drawingPanel .olControlNavigationItemInactive:hover { color: white; text-shadow: black 2px 2px 2px; }
+
+/* Save Custom Button */
+.drawingPanel .saveButtonItemActive:before, .drawingPanel .saveButtonItemInactive:before{ content: ""; }
+.drawingPanel .saveButtonItemInactive:hover {  color: orange; cursor: pointer; }
+.drawingPanel .saveButtonItemInactive { border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+
+/* ZoomBox Rectangle Button */
+.drawingPanel .olControlZoomBoxItemInactive:before, .drawingPanel .olControlZoomBoxItemActive:before{ content: ""; }
+.drawingPanel .olControlZoomBoxItemActive { color: #f56954; }
+.drawingPanel .olControlZoomBoxItemInactive { color: black; }
+.drawingPanel .olControlZoomBoxItemInactive:hover { color: white; text-shadow: black 2px 2px 2px; }
+
+/* ZoomToMaxExtent Button */
+.drawingPanel .olControlZoomToMaxExtentItemActive:before, .drawingPanel .olControlZoomToMaxExtentItemInactive:before{ content: ""; }
+.drawingPanel .olControlZoomToMaxExtentItemInactive:hover {  color: orange; cursor: pointer;}
+
+/* Overview Map Position */
+/*.olControlOverviewMapContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: none !important;
+}
+
+.olControlOverviewMapMinimizeButton,
+.olControlOverviewMapMaximizeButton {
+    height: 18px;
+    width: 18px;
+    left: 0;
+    bottom: 80px;
+    cursor: pointer;
+}*/
+
+#map{
+    -moz-box-shadow: 2px 1px 10px #121112;
+    -webkit-box-shadow: 2px 1px 10px #121112;
+    box-shadow: 2px 1px 10px #121112;
+}
+
+/* Styles for Map controls Panel */
+.map-warapper{
+  position: relative;
+  width: auto;
+  max-width: none;
+}
+
+.map-wrapper .right-map-panel{
+  position: absolute;
+  right: -40px;
+  top: 20px;
+}

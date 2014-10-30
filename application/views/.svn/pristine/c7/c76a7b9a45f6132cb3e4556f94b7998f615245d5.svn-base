@@ -1,0 +1,65 @@
+    <script src="http://openlayers.org/api/OpenLayers.js"></script>
+    <script type="text/javascript">
+                    // Maps always need a projection, but the static image is not geo-referenced,
+                    // and are only measured in pixels.  So, we create a fake projection that the
+                    // map can use to properly display the layer.
+                    var pixelProjection = new OpenLayers.proj.Projection({
+                      code: 'pixel',
+                      units: 'pixels',
+                      extent: [0, 0, 1024, 968]
+                    });
+
+                    var map = new OpenLayers.Map({
+                      layers: [
+                        new OpenLayers.layer.Image({
+                          source: new OpenLayers.source.ImageStatic({
+                            attributions: [
+                              new OpenLayers.Attribution({
+                                html: '&copy; <a href="http://xkcd.com/license.html">xkcd</a>'
+                              })
+                            ],
+                            url: 'http://imgs.xkcd.com/comics/online_communities.png',
+                            imageSize: [1024, 968],
+                            projection: pixelProjection,
+                            imageExtent: pixelProjection.getExtent()
+                          })
+                        })
+                      ],
+                      target: 'map',
+                      view: new OpenLayers.View({
+                        projection: pixelProjection,
+                        center: OpenLayers.extent.getCenter(pixelProjection.getExtent()),
+                        zoom: 2
+                      })
+                    });
+                </script>
+
+<!-- Right side column. Contains the navbar and content of the page -->
+            <aside class="right-side">
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>
+                        Annotate slide capture
+                        <small>use the controls bellow </small>
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li><a href="#">Examples</a></li>
+                        <li class="active">Blank page</li>
+                    </ol>
+                </section>
+
+                <!-- Main content -->
+                <section class="content">
+
+                    <div class="row-fluid">
+                            <div class="span12">
+                              <div id="map" class="map"></div>
+                            </div>
+                          </div>
+
+
+
+                </section><!-- /.content -->
+            </aside><!-- /.right-side -->
+        </div><!-- ./wrapper -->
